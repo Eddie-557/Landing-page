@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #1F2937;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+
+nav>.hlogo>a, nav>.links>a{
+    color: white;
+    text-decoration: none;
+}
+
+nav>.links{
+    display: flex;
+    gap: 20px;
+}
+
+#home{
+    padding: 30px;
+    background-color: #1F2937;
+}
+
+#home>.container{
+    display: flex;
+    justify-content: center;
+}
+
+#home>.container>.text{
+    min-height: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 4px;
+    flex: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+#home>.container>.text>h1{
+    color: white;
+    text-align: left;
+}
+
+#home>.container>.text>p{
+    color: white;
+}
+
+#home>.container>.text>button{
+    align-self: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    border: transparent;
+}
+
+#home>.container>.text>button>a{
+    text-decoration: none;
+    color: white;
+}
+
+/* #home>.container>.image{
+    width: 300px;
+    height: 300px;
+} */
+
+#home>.container>.image>img{
+    width: 400px;
+    height: 400px;
+}
